@@ -1,0 +1,183 @@
+{
+  "paths": [
+    {
+      "id": "path-3days",
+      "name": "3天速成路径",
+      "description": "快速掌握核心概念，适合面试时间紧迫的情况",
+      "duration": "3天",
+      "difficulty": "beginner",
+      "estimatedHours": 12,
+      "phases": [
+        {
+          "id": "phase-1",
+          "name": "核心知识突击",
+          "duration": "第1天",
+          "modules": ["module-manlam", "module-il10", "module-bregs", "module-immune-evasion"],
+          "objectives": ["理解ManLAM的核心作用", "掌握IL-10的产生机制", "了解Bregs的分化过程", "理解TB免疫逃逸机制"]
+        },
+        {
+          "id": "phase-2",
+          "name": "核心论文精读",
+          "duration": "第2天",
+          "modules": ["module-paper02-yuan2019", "module-paper08-pan2014"],
+          "objectives": ["精读Yuan 2019核心论文", "理解ManLAM-B细胞-IL-10轴机制", "掌握研究起点Pan 2014论文"]
+        },
+        {
+          "id": "phase-3",
+          "name": "整合巩固",
+          "duration": "第3天",
+          "modules": ["module-timeline", "module-mechanism-map", "module-interview-focus"],
+          "objectives": ["理解研究脉络时间线", "掌握机制整合图谱", "复习面试重点问题"]
+        }
+      ]
+    },
+    {
+      "id": "path-2weeks",
+      "name": "2周系统学习路径",
+      "description": "系统掌握全部知识，适合有充足准备时间的情况",
+      "duration": "2周",
+      "difficulty": "intermediate",
+      "estimatedHours": 56,
+      "phases": [
+        {
+          "id": "phase-1",
+          "name": "基础知识全面学习",
+          "duration": "第1-4天",
+          "modules": [
+            "module-manlam",
+            "module-il10",
+            "module-stat3",
+            "module-dcsign",
+            "module-tlr2",
+            "module-nfkb",
+            "module-btla",
+            "module-molecular-network"
+          ],
+          "objectives": ["掌握所有核心分子档案", "理解分子相互作用网络", "建立完整知识框架"]
+        },
+        {
+          "id": "phase-2",
+          "name": "细胞与技术学习",
+          "duration": "第5-7天",
+          "modules": [
+            "module-bregs",
+            "module-th1-th17",
+            "module-macrophage",
+            "module-cell-communication",
+            "module-cre-loxp",
+            "module-facs",
+            "module-other-techniques"
+          ],
+          "objectives": ["掌握细胞亚群图谱", "理解细胞通讯机制", "熟悉实验技术原理"]
+        },
+        {
+          "id": "phase-3",
+          "name": "疾病背景与论文解析",
+          "duration": "第8-12天",
+          "modules": [
+            "module-immune-evasion",
+            "module-tb-difficulty",
+            "module-bcell-role",
+            "module-paper02-yuan2019",
+            "module-paper08-pan2014",
+            "module-paper06-sun2016",
+            "module-paper03-zhou2019",
+            "module-paper01-liu2020"
+          ],
+          "objectives": ["理解疾病背景", "精读核心论文", "掌握研究发展脉络"]
+        },
+        {
+          "id": "phase-4",
+          "name": "全局整合与模拟面试",
+          "duration": "第13-14天",
+          "modules": ["module-timeline", "module-mechanism-map", "module-ultimate-answer", "module-interview-focus"],
+          "objectives": ["整合全部知识", "理解终极问题答案", "进行模拟面试练习"]
+        }
+      ]
+    },
+    {
+      "id": "path-1month",
+      "name": "1个月深入学习路径",
+      "description": "深度学习全部内容，配合原文PDF，适合追求卓越的情况",
+      "duration": "1个月",
+      "difficulty": "advanced",
+      "estimatedHours": 120,
+      "phases": [
+        {
+          "id": "phase-1",
+          "name": "核心分子深度学习",
+          "duration": "第1周",
+          "modules": [
+            "module-manlam",
+            "module-il10",
+            "module-stat3",
+            "module-dcsign",
+            "module-tlr2",
+            "module-nfkb",
+            "module-btla",
+            "module-molecular-network"
+          ],
+          "objectives": ["深入理解每个核心分子", "掌握分子间相互作用", "能够绘制分子网络图"]
+        },
+        {
+          "id": "phase-2",
+          "name": "细胞亚群与技术方法",
+          "duration": "第2周前半",
+          "modules": [
+            "module-bregs",
+            "module-th1-th17",
+            "module-macrophage",
+            "module-cell-communication",
+            "module-cre-loxp",
+            "module-facs",
+            "module-other-techniques"
+          ],
+          "objectives": ["深入理解细胞亚群特征", "掌握实验技术原理与局限", "能够设计实验方案"]
+        },
+        {
+          "id": "phase-3",
+          "name": "疾病背景深度理解",
+          "duration": "第2周后半",
+          "modules": ["module-immune-evasion", "module-tb-difficulty", "module-bcell-role"],
+          "objectives": ["深入理解免疫逃逸机制", "掌握TB难治原因", "理解B细胞角色演变"]
+        },
+        {
+          "id": "phase-4",
+          "name": "核心论文精读",
+          "duration": "第3周",
+          "modules": [
+            "module-paper02-yuan2019",
+            "module-paper08-pan2014",
+            "module-paper06-sun2016",
+            "module-paper05-tang2017"
+          ],
+          "objectives": ["精读核心机制论文", "理解研究起点与发展", "掌握技术方法演进"]
+        },
+        {
+          "id": "phase-5",
+          "name": "扩展论文学习",
+          "duration": "第4周前半",
+          "modules": [
+            "module-paper01-liu2020",
+            "module-paper03-zhou2019",
+            "module-paper04-pan2018",
+            "module-paper07-pan2015"
+          ],
+          "objectives": ["学习机制延伸论文", "理解综述内容", "掌握技术拓展应用"]
+        },
+        {
+          "id": "phase-6",
+          "name": "全局整合与面试准备",
+          "duration": "第4周后半",
+          "modules": [
+            "module-timeline",
+            "module-mechanism-map",
+            "module-ultimate-answer",
+            "module-interview-focus"
+          ],
+          "objectives": ["完成知识整合", "掌握终极问题答案", "进行多轮模拟面试", "准备个人研究计划"]
+        }
+      ]
+    }
+  ]
+}

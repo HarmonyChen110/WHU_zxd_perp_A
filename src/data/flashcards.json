@@ -1,0 +1,296 @@
+[
+  {
+    "id": "fc-manlam-001",
+    "category": "basics",
+    "tags": ["manlam", "structure", "mtb"],
+    "question": "ManLAM是什么？它在MTB免疫逃逸中起什么作用？",
+    "answer": "ManLAM（甘露糖脂阿拉伯甘露聚糖）是MTB细胞壁上的糖脂分子，是免疫逃逸的关键武器，被称为'糖衣炮弹'。它通过与B细胞结合，激活STAT3信号通路，促进B细胞向Bregs分化，产生IL-10抑制Th1免疫反应。"
+  },
+  {
+    "id": "fc-manlam-002",
+    "category": "basics",
+    "tags": ["manlam", "function", "receptors"],
+    "question": "ManLAM通过哪些受体与免疫细胞结合？",
+    "answer": "ManLAM主要通过DC-SIGN（树突细胞特异性ICAM-3捕获非整合素）受体识别，也可以通过TLR2等其他受体结合免疫细胞。DC-SIGN被称为识别ManLAM的'门卫受体'。"
+  },
+  {
+    "id": "fc-manlam-003",
+    "category": "basics",
+    "tags": ["manlam", "mechanism", "bregs"],
+    "question": "ManLAM如何诱导B细胞分化为Bregs？",
+    "answer": "ManLAM与B细胞表面的DC-SIGN受体结合，激活STAT3信号通路，STAT3促进IL-10基因转录，高水平的IL-10诱导B细胞向CD19+CD5+CD1dhi的Bregs表型分化。"
+  },
+  {
+    "id": "fc-il10-001",
+    "category": "basics",
+    "tags": ["il10", "cytokine", "immune-regulation"],
+    "question": "IL-10在免疫系统中被称为什么？它有什么功能？",
+    "answer": "IL-10（白细胞介素-10）被称为免疫系统的'灭火器'，是一种关键的免疫抑制性细胞因子。它能抑制Th1细胞的活化和IFN-gamma的产生，下调巨噬细胞的杀菌活性，从而抑制过度的炎症反应。"
+  },
+  {
+    "id": "fc-il10-002",
+    "category": "basics",
+    "tags": ["il10", "signaling", "stat3"],
+    "question": "IL-10信号通路是如何传导的？",
+    "answer": "IL-10与IL-10受体结合后，激活JAK1和TyK2激酶，进而磷酸化STAT3。磷酸化的STAT3形成二聚体进入细胞核，调控抗炎基因的转录。IL-10也可以通过STAT3非依赖途径发挥作用。"
+  },
+  {
+    "id": "fc-stat3-001",
+    "category": "basics",
+    "tags": ["stat3", "transcription", "signaling"],
+    "question": "STAT3在Breg分化中起什么作用？",
+    "answer": "STAT3是信号转导与转录激活因子3，被称为Breg分化的'总开关'。当ManLAM与B细胞结合后，STAT3被磷酸化激活，进入细胞核促进IL-10基因转录，进而驱动B细胞向Bregs分化。STAT3缺失会阻断Breg的形成。"
+  },
+  {
+    "id": "fc-stat3-002",
+    "category": "basics",
+    "tags": ["stat3", "target-genes", "transcription"],
+    "question": "STAT3的主要靶基因有哪些？",
+    "answer": "STAT3的主要靶基因包括：IL-10（免疫抑制）、Blimp-1（浆细胞分化）、c-Myc（细胞增殖）、Bcl-2（抗凋亡）、SOCS3（信号负反馈）等。这些基因共同调控B细胞的活化和分化。"
+  },
+  {
+    "id": "fc-dcsign-001",
+    "category": "basics",
+    "tags": ["dcsign", "receptor", "manlam"],
+    "question": "DC-SIGN受体的结构和功能特点是什么？",
+    "answer": "DC-SIGN（CD209）是C型凝集素受体，主要表达在树突细胞表面。它含有一个碳水化合物识别结构域（CRD），能够高亲和力识别ManLAM的甘露糖残基。DC-SIGN结合ManLAM后触发细胞内信号传导，促进IL-10产生。"
+  },
+  {
+    "id": "fc-nfkb-001",
+    "category": "basics",
+    "tags": ["nfkb", "transcription", "inflammation"],
+    "question": "NF-kB信号通路在免疫反应中的作用是什么？",
+    "answer": "NF-kB是核因子kappa B，是重要的炎症相关转录因子。在静息状态下与IkB抑制蛋白结合在细胞质中。当受到刺激时，IkB被磷酸化降解，NF-kB释放并进入细胞核，调控促炎因子（TNF-a、IL-6、IL-12等）的表达。"
+  },
+  {
+    "id": "fc-tlr2-001",
+    "category": "basics",
+    "tags": ["tlr2", "prr", "mtb"],
+    "question": "TLR2受体在识别MTB中起什么作用？",
+    "answer": "TLR2是Toll样受体2，是识别MTB病原体相关分子模式（PAMPs）的重要模式识别受体。TLR2可以识别MTB的脂蛋白、脂阿拉伯甘露聚糖等成分，激活NF-kB和MAPK信号通路，诱导炎症因子产生。"
+  },
+  {
+    "id": "fc-btla-001",
+    "category": "basics",
+    "tags": ["btla", "checkpoint", "inhibition"],
+    "question": "BTLA分子的功能是什么？",
+    "answer": "BTLA（B和T淋巴细胞衰减因子）是免疫检查点分子，属于CD28超家族。BTLA与其配体HVEM结合后传递抑制信号，通过招募SHP-1/SHP-2磷酸酶抑制T和B细胞的活化，维持免疫稳态。"
+  },
+  {
+    "id": "fc-network-001",
+    "category": "basics",
+    "tags": ["network", "signaling", "integration"],
+    "question": "ManLAM-B细胞-IL-10轴中的关键分子网络是什么？",
+    "answer": "关键分子网络包括：ManLAM（配体）-> DC-SIGN/TLR2（受体）-> STAT3/NF-kB（转录因子）-> IL-10（效应分子）-> STAT3（自分泌/旁分泌）-> Breg分化。这一网络形成正反馈环路，增强免疫抑制效应。"
+  },
+  {
+    "id": "fc-bregs-001",
+    "category": "cells",
+    "tags": ["bregs", "phenotype", "markers"],
+    "question": "Bregs（调节性B细胞）的表面标志物是什么？",
+    "answer": "Bregs的表面标志物为CD19+CD5+CD1dhi。CD19是B细胞泛标志，CD5与自身反应性相关，CD1d高表达是其特征。部分Bregs也表达CD24和CD38。"
+  },
+  {
+    "id": "fc-bregs-002",
+    "category": "cells",
+    "tags": ["bregs", "function", "il10"],
+    "question": "Bregs的主要功能是什么？",
+    "answer": "Bregs的主要功能是通过产生IL-10等免疫抑制性细胞因子，抑制Th1和Th17细胞的活化，下调巨噬细胞的杀菌活性，促进Treg分化，从而维持免疫耐受和防止过度炎症反应。"
+  },
+  {
+    "id": "fc-bregs-003",
+    "category": "cells",
+    "tags": ["bregs", "differentiation", "signals"],
+    "question": "哪些信号可以诱导B细胞向Bregs分化？",
+    "answer": "诱导Breg分化的信号包括：1）ManLAM通过DC-SIGN激活STAT3；2）CD40与CD40L结合；3）BCR交联；4）TLR配体刺激；5）细胞因子（IL-21、IL-35）。这些信号通过STAT3、ERK等通路促进IL-10产生和Breg分化。"
+  },
+  {
+    "id": "fc-th1-001",
+    "category": "cells",
+    "tags": ["th1", "ifn-gamma", "tb-defense"],
+    "question": "Th1细胞在抗结核免疫中的作用是什么？",
+    "answer": "Th1细胞（CD4+IFN-gamma+ T细胞）是抗结核免疫的主力军。它们通过产生IFN-gamma激活巨噬细胞，增强巨噬细胞的杀菌活性（产生ROS、NO，提高吞噬体成熟），从而杀灭细胞内的MTB。"
+  },
+  {
+    "id": "fc-th1-002",
+    "category": "cells",
+    "tags": ["th17", "il17", "inflammation"],
+    "question": "Th17细胞在结核感染中有什么作用？",
+    "answer": "Th17细胞通过产生IL-17、IL-22等细胞因子，招募中性粒细胞和单核细胞到感染部位，促进炎症反应和组织修复。但过度的Th17反应也可能导致免疫病理损伤。"
+  },
+  {
+    "id": "fc-macro-001",
+    "category": "cells",
+    "tags": ["macrophage", "mtb", "host-cell"],
+    "question": "巨噬细胞在MTB感染中的双重作用是什么？",
+    "answer": "巨噬细胞是MTB的主要宿主细胞，具有双重作用：1）防御作用：通过吞噬、产生ROS/NO杀灭MTB；2）庇护作用：MTB可在巨噬细胞内存活并繁殖，利用巨噬细胞作为传播载体。M1型巨噬细胞杀菌能力强，M2型有利于MTB存活。"
+  },
+  {
+    "id": "fc-comm-001",
+    "category": "cells",
+    "tags": ["communication", "cytokines", "cell-interaction"],
+    "question": "免疫细胞间通讯的主要方式有哪些？",
+    "answer": "免疫细胞间通讯的主要方式包括：1）细胞因子（IL-10、IFN-gamma、IL-4等）；2）细胞直接接触（共刺激分子CD40-CD40L、PD-1-PD-L1等）；3）外泌体；4）趋化因子梯度；5）抗原呈递。这些通讯方式精确调控免疫反应的强度和方向。"
+  },
+  {
+    "id": "fc-evasion-001",
+    "category": "disease",
+    "tags": ["evasion", "mtb", "mechanism"],
+    "question": "MTB免疫逃逸的核心机制是什么？",
+    "answer": "MTB免疫逃逸的核心机制是：MTB释放ManLAM -> ManLAM结合B细胞表面DC-SIGN -> 激活STAT3信号通路 -> STAT3促进IL-10转录 -> B细胞分化为Bregs -> Bregs产生IL-10抑制Th1反应 -> 巨噬细胞活化受阻 -> MTB存活。这一机制被称为'ManLAM-B细胞-IL-10轴'。"
+  },
+  {
+    "id": "fc-evasion-002",
+    "category": "disease",
+    "tags": ["evasion", "strategies", "mtb"],
+    "question": "MTB还有哪些其他的免疫逃逸策略？",
+    "answer": "除ManLAM-B细胞-IL-10轴外，MTB的其他逃逸策略包括：1）抑制吞噬体成熟；2）抵抗ROS和NO杀伤；3）干扰抗原呈递（下调MHC-II）；4）诱导巨噬细胞凋亡或坏死；5）形成肉芽肿庇护所；6）休眠菌潜伏。"
+  },
+  {
+    "id": "fc-tb-001",
+    "category": "disease",
+    "tags": ["tb", "treatment", "challenges"],
+    "question": "结核病为何难以治愈？",
+    "answer": "TB难治的原因包括：1）MTB细胞壁富含脂质，药物渗透差；2）MTB可在细胞内和肉芽肿中存活，药物难以到达；3）休眠菌代谢低，对多数抗生素不敏感；4）治疗周期长，患者依从性差；5）耐多药菌株的出现；6）宿主免疫反应不足。"
+  },
+  {
+    "id": "fc-brole-001",
+    "category": "disease",
+    "tags": ["bcell", "tb", "dual-role"],
+    "question": "B细胞在结核感染中的双重作用是什么？",
+    "answer": "B细胞在MTB感染中具有双重作用：1）保护作用：产生抗体、呈递抗原、分泌细胞因子；2）致病作用：分化为Bregs产生IL-10，抑制Th1反应，促进MTB免疫逃逸。B细胞的净效应取决于感染阶段、微环境和细胞亚群平衡。"
+  },
+  {
+    "id": "fc-cre-001",
+    "category": "technique",
+    "tags": ["cre-loxp", "ko", "conditional"],
+    "question": "Cre-LoxP技术的原理是什么？",
+    "answer": "Cre-LoxP是条件性基因敲除技术。Cre重组酶识别LoxP位点（34bp序列），当两个LoxP位点方向相同时，Cre切除其间序列；方向相反时，发生倒位。通过将Cre与组织特异性启动子结合，可以实现时空特异性的基因敲除。"
+  },
+  {
+    "id": "fc-facs-001",
+    "category": "technique",
+    "tags": ["facs", "sorting", "flow-cytometry"],
+    "question": "流式细胞术（FACS）的原理和应用是什么？",
+    "answer": "FACS（荧光激活细胞分选）利用荧光标记抗体识别细胞表面标志物，通过激光照射检测荧光信号，实现细胞的定量分析和分选。应用包括：细胞亚群分选（如CD19+CD5+CD1dhi Bregs）、细胞周期分析、细胞凋亡检测等。"
+  },
+  {
+    "id": "fc-tech-001",
+    "category": "technique",
+    "tags": ["elisa", "western-blot", "methods"],
+    "question": "免疫学研究中的常用实验技术有哪些？",
+    "answer": "常用技术包括：1）ELISA - 检测细胞因子水平；2）Western Blot - 检测蛋白表达和磷酸化；3）qPCR - 检测基因表达；4）流式细胞术 - 细胞分选和分析；5）免疫荧光 - 定位蛋白表达；6）ChIP - 检测蛋白-DNA结合；7）RNA-seq - 转录组分析。"
+  },
+  {
+    "id": "fc-yuan-001",
+    "category": "paper",
+    "tags": ["yuan-2019", "manlam", "bregs"],
+    "question": "Yuan 2019论文的核心发现是什么？",
+    "answer": "Yuan 2019论文首次证明ManLAM可以直接诱导人B细胞分化为IL-10产生的调节性B细胞（Bregs）。研究发现ManLAM通过DC-SIGN受体激活STAT3信号通路，促进IL-10转录，导致Bregs表型（CD19+CD5+CD1dhi）的建立。"
+  },
+  {
+    "id": "fc-yuan-002",
+    "category": "paper",
+    "tags": ["yuan-2019", "dcsign", "stat3"],
+    "question": "Yuan 2019论文是如何证明DC-SIGN和STAT3的作用的？",
+    "answer": "论文通过以下实验证明：1）使用DC-SIGN阻断抗体显著减少ManLAM诱导的IL-10产生；2）STAT3抑制剂或STAT3 siRNA处理显著降低IL-10表达和pSTAT3水平；3）ChIP实验证实STAT3直接结合IL-10启动子区。"
+  },
+  {
+    "id": "fc-yuan-003",
+    "category": "paper",
+    "tags": ["yuan-2019", "significance", "tb"],
+    "question": "Yuan 2019论文的科学意义是什么？",
+    "answer": "该研究的科学意义在于：1）首次阐明ManLAM直接作用于B细胞的机制；2）完善了MTB免疫逃逸的'B细胞途径'；3）为靶向Bregs的结核免疫治疗提供了理论基础；4）提示阻断ManLAM-DC-SIGN-STAT3轴可能成为新的治疗策略。"
+  },
+  {
+    "id": "fc-pan2014-001",
+    "category": "paper",
+    "tags": ["pan-2014", "aptamer", "manlam"],
+    "question": "Pan 2014论文开发了什么工具研究ManLAM？",
+    "answer": "Pan 2014论文开发了靶向ManLAM的核酸适配体（Aptamer）。适配体是单链DNA或RNA分子，能特异性结合靶分子。该研究开发的适配体能高亲和力识别ManLAM，为后续研究和诊断应用提供了重要工具。"
+  },
+  {
+    "id": "fc-pan2014-002",
+    "category": "paper",
+    "tags": ["pan-2014", "selex", "method"],
+    "question": "Pan 2014是如何开发ManLAM适配体的？",
+    "answer": "研究使用SELEX（指数富集的配体系统进化）技术：1）构建随机寡核苷酸文库；2）与ManLAM孵育结合；3）洗脱结合序列；4）PCR扩增；5）重复多轮筛选；6）克隆测序获得高亲和力适配体。"
+  },
+  {
+    "id": "fc-liu2020-001",
+    "category": "paper",
+    "tags": ["liu-2020", "hcv", "bregs"],
+    "question": "Liu 2020论文的主要发现是什么？",
+    "answer": "Liu 2020论文研究了HCV（丙型肝炎病毒）感染中的IL-10产生B细胞。研究发现HCV核心蛋白可以诱导B细胞产生IL-10，机制涉及STAT3激活。这提示病毒感染也利用类似的Breg途径实现免疫逃逸。"
+  },
+  {
+    "id": "fc-sun-001",
+    "category": "paper",
+    "tags": ["sun-2016", "bregs", "il10"],
+    "question": "Sun 2016论文研究了什么内容？",
+    "answer": "Sun 2016论文进一步研究了IL-10产生B细胞的特征和功能。研究详细分析了不同B细胞亚群产生IL-10的能力，以及IL-10对T细胞反应的调节作用，为理解Bregs的免疫调节功能提供了重要数据。"
+  },
+  {
+    "id": "fc-zhou-001",
+    "category": "paper",
+    "tags": ["zhou-2019", "bcell", "infection"],
+    "question": "Zhou 2019论文的主要贡献是什么？",
+    "answer": "Zhou 2019论文研究了B细胞在感染性疾病中的多功能作用，包括抗体产生、抗原呈递和免疫调节。研究强调B细胞不仅是抗体产生细胞，也是重要的免疫调节细胞。"
+  },
+  {
+    "id": "fc-tang-001",
+    "category": "paper",
+    "tags": ["tang-2017", "tb", "immunology"],
+    "question": "Tang 2017论文关于结核免疫的主要发现是什么？",
+    "answer": "Tang 2017论文研究了结核病免疫反应的调控机制，重点关注免疫细胞间的相互作用和细胞因子网络，为理解结核病的免疫病理和开发新的免疫治疗策略提供了重要见解。"
+  },
+  {
+    "id": "fc-pan2018-001",
+    "category": "paper",
+    "tags": ["pan-2018", "aptamer", "diagnosis"],
+    "question": "Pan 2018论文关于适配体的应用研究是什么？",
+    "answer": "Pan 2018论文研究了核酸适配体在疾病诊断中的应用，包括适配体生物传感器的开发和适配体介导的靶向检测技术，为适配体的临床转化提供了新思路。"
+  },
+  {
+    "id": "fc-pan2015-001",
+    "category": "paper",
+    "tags": ["pan-2015", "aptamer", "technology"],
+    "question": "Pan 2015论文对适配体技术有什么贡献？",
+    "answer": "Pan 2015论文综述了核酸适配体技术的发展和应用，讨论了适配体的优势（高亲和力、稳定性好、低免疫原性）以及在基础研究和临床诊断中的应用前景。"
+  },
+  {
+    "id": "fc-timeline-001",
+    "category": "synthesis",
+    "tags": ["timeline", "research", "history"],
+    "question": "2014-2020年间关于ManLAM-Bregs研究的时间线是什么？",
+    "answer": "研究时间线：2014 Pan开发ManLAM适配体（工具建立） -> 2015 Pan适配体技术进展 -> 2016 Sun IL-10产生B细胞研究 -> 2017 Tang结核免疫研究 -> 2018 Pan适配体诊断应用 -> 2019 Yuan ManLAM诱导Bregs（核心机制） -> 2020 Liu HCV中Bregs（机制延伸）。"
+  },
+  {
+    "id": "fc-mechanism-001",
+    "category": "synthesis",
+    "tags": ["mechanism", "integration", "pathway"],
+    "question": "ManLAM-B细胞-IL-10轴的完整机制是什么？",
+    "answer": "完整机制包括以下步骤：1）MTB感染释放ManLAM；2）ManLAM与B细胞表面DC-SIGN结合；3）激活JAK-STAT3信号通路；4）STAT3磷酸化入核；5）结合IL-10启动子区；6）IL-10转录和分泌；7）IL-10自分泌/旁分泌强化STAT3激活；8）B细胞分化为Bregs（CD19+CD5+CD1dhi）；9）Bregs产生IL-10抑制Th1；10）MTB逃逸免疫杀伤。"
+  },
+  {
+    "id": "fc-mechanism-002",
+    "category": "synthesis",
+    "tags": ["feedback", "loop", "regulation"],
+    "question": "ManLAM-B细胞-IL-10轴中存在哪些反馈调节？",
+    "answer": "存在正反馈和负反馈调节：正反馈：IL-10可进一步激活STAT3，增强Breg分化；负反馈：SOCS3蛋白抑制STAT3过度激活；TLR2激活可促进NF-kB与STAT3的交叉对话，平衡炎症和抗炎反应。"
+  },
+  {
+    "id": "fc-ultimate-001",
+    "category": "synthesis",
+    "tags": ["ultimate", "answer", "overview"],
+    "question": "如何一步步揭开MTB利用B细胞免疫逃逸机制？",
+    "answer": "研究路径：1）发现现象：MTB感染时B细胞产生IL-10；2）寻找配体：MTB成分ManLAM是关键；3）鉴定受体：DC-SIGN识别ManLAM；4）解析通路：STAT3是关键转录因子；5）定义细胞：CD19+CD5+CD1dhi Bregs；6）验证机制：体内外实验证实；7）探索应用：适配体靶向干预。"
+  },
+  {
+    "id": "fc-int-focus-001",
+    "category": "synthesis",
+    "tags": ["interview", "key-points", "exam"],
+    "question": "面试高频问题：为什么选择研究ManLAM-B细胞轴？",
+    "answer": "研究意义包括：1）科学价值：填补了MTB免疫逃逸机制的空白；2）临床价值：为结核病免疫治疗提供新靶点；3）方法创新：结合分子免疫学和适配体技术；4）转化前景：可开发Anti-ManLAM适配体作为治疗药物；5）系统思维：从分子到细胞到疾病的全链条研究。"
+  }
+]

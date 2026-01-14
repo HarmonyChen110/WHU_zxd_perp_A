@@ -1,0 +1,229 @@
+{
+  "id": "core-mechanism",
+  "name": "MTB免疫逃逸核心机制",
+  "description": "结核分枝杆菌通过ManLAM诱导B细胞分化为Bregs，产生IL-10抑制Th1免疫反应的完整机制",
+  "nodes": [
+    {
+      "id": "mtb",
+      "label": "MTB",
+      "subtitle": "结核分枝杆菌",
+      "type": "pathogen",
+      "position": { "x": 50, "y": 300 },
+      "style": { "size": 60, "color": "#ef4444" },
+      "contentLink": { "type": "module", "id": "module-mtb" },
+      "description": "结核分枝杆菌，全球重大传染病病原体"
+    },
+    {
+      "id": "manlam",
+      "label": "ManLAM",
+      "subtitle": "甘露糖脂阿拉伯甘露聚糖",
+      "type": "molecule",
+      "position": { "x": 200, "y": 300 },
+      "style": { "size": 55, "color": "#f97316" },
+      "contentLink": { "type": "module", "id": "module-manlam" },
+      "description": "MTB细胞壁上的糖脂分子，免疫逃逸的关键武器"
+    },
+    {
+      "id": "bcell",
+      "label": "B细胞",
+      "subtitle": "CD19+ B淋巴细胞",
+      "type": "cell",
+      "position": { "x": 350, "y": 300 },
+      "style": { "size": 55, "color": "#3b82f6" },
+      "contentLink": { "type": "module", "id": "module-bcell" },
+      "description": "适应性免疫的重要组成部分，ManLAM的靶细胞"
+    },
+    {
+      "id": "stat3",
+      "label": "STAT3",
+      "subtitle": "信号转导与转录激活因子3",
+      "type": "signaling",
+      "position": { "x": 500, "y": 300 },
+      "style": { "size": 50, "color": "#8b5cf6" },
+      "contentLink": { "type": "module", "id": "module-stat3" },
+      "description": "关键转录因子，Breg分化的总开关"
+    },
+    {
+      "id": "il10",
+      "label": "IL-10",
+      "subtitle": "白细胞介素-10",
+      "type": "cytokine",
+      "position": { "x": 650, "y": 300 },
+      "style": { "size": 50, "color": "#10b981" },
+      "contentLink": { "type": "module", "id": "module-il10" },
+      "description": "免疫抑制性细胞因子，免疫系统的灭火器"
+    },
+    {
+      "id": "bregs",
+      "label": "Bregs",
+      "subtitle": "CD19+CD5+CD1dhi调节性B细胞",
+      "type": "cell",
+      "position": { "x": 800, "y": 300 },
+      "style": { "size": 55, "color": "#06b6d4" },
+      "contentLink": { "type": "module", "id": "module-bregs" },
+      "description": "调节性B细胞，通过IL-10介导免疫抑制"
+    },
+    {
+      "id": "immunosuppression",
+      "label": "免疫抑制",
+      "subtitle": "全面免疫抑制状态",
+      "type": "effect",
+      "position": { "x": 950, "y": 200 },
+      "style": { "size": 50, "color": "#64748b" },
+      "contentLink": { "type": "module", "id": "module-suppression" },
+      "description": "Bregs介导的系统性免疫抑制"
+    },
+    {
+      "id": "th1",
+      "label": "Th1反应",
+      "subtitle": "CD4+IFN-γ+ T细胞",
+      "type": "cell",
+      "position": { "x": 950, "y": 400 },
+      "style": { "size": 55, "color": "#eab308" },
+      "contentLink": { "type": "module", "id": "module-th1" },
+      "description": "抗结核免疫的主力军，被Bregs抑制"
+    },
+    {
+      "id": "mtb-survival",
+      "label": "MTB持续存活",
+      "subtitle": "免疫逃逸成功",
+      "type": "outcome",
+      "position": { "x": 1100, "y": 300 },
+      "style": { "size": 60, "color": "#dc2626" },
+      "contentLink": { "type": "module", "id": "module-survival" },
+      "description": "MTB成功逃避宿主免疫，建立持续感染"
+    },
+    {
+      "id": "dcsign",
+      "label": "DC-SIGN",
+      "subtitle": "树突细胞特异性受体",
+      "type": "receptor",
+      "position": { "x": 275, "y": 180 },
+      "style": { "size": 45, "color": "#a855f7" },
+      "contentLink": { "type": "module", "id": "module-dcsign" },
+      "description": "识别ManLAM的门卫受体"
+    },
+    {
+      "id": "macrophage",
+      "label": "巨噬细胞",
+      "subtitle": "F4/80+CD11b+",
+      "type": "cell",
+      "position": { "x": 200, "y": 450 },
+      "style": { "size": 50, "color": "#f59e0b" },
+      "contentLink": { "type": "module", "id": "module-macrophage" },
+      "description": "MTB的主要宿主细胞"
+    }
+  ],
+  "edges": [
+    {
+      "id": "mtb-manlam",
+      "source": "mtb",
+      "target": "manlam",
+      "type": "production",
+      "label": "释放",
+      "animated": true,
+      "description": "MTB释放ManLAM到细胞外环境"
+    },
+    {
+      "id": "manlam-bcell",
+      "source": "manlam",
+      "target": "bcell",
+      "type": "binding",
+      "label": "结合",
+      "animated": true,
+      "description": "ManLAM与B细胞表面受体结合"
+    },
+    {
+      "id": "bcell-stat3",
+      "source": "bcell",
+      "target": "stat3",
+      "type": "activation",
+      "label": "激活",
+      "animated": true,
+      "description": "B细胞内STAT3信号通路被激活"
+    },
+    {
+      "id": "stat3-il10",
+      "source": "stat3",
+      "target": "il10",
+      "type": "transcription",
+      "label": "转录",
+      "animated": true,
+      "description": "STAT3促进IL-10基因转录"
+    },
+    {
+      "id": "il10-bregs",
+      "source": "il10",
+      "target": "bregs",
+      "type": "differentiation",
+      "label": "分化",
+      "animated": true,
+      "description": "IL-10促进B细胞向Bregs分化"
+    },
+    {
+      "id": "bregs-suppression",
+      "source": "bregs",
+      "target": "immunosuppression",
+      "type": "effect",
+      "label": "介导",
+      "animated": true,
+      "description": "Bregs介导全面免疫抑制"
+    },
+    {
+      "id": "bregs-th1",
+      "source": "bregs",
+      "target": "th1",
+      "type": "inhibition",
+      "label": "抑制",
+      "animated": true,
+      "style": { "strokeDasharray": "5,5" },
+      "description": "Bregs通过IL-10抑制Th1反应"
+    },
+    {
+      "id": "suppression-survival",
+      "source": "immunosuppression",
+      "target": "mtb-survival",
+      "type": "outcome",
+      "label": "导致",
+      "animated": true,
+      "description": "免疫抑制导致MTB持续存活"
+    },
+    {
+      "id": "th1-survival",
+      "source": "th1",
+      "target": "mtb-survival",
+      "type": "failure",
+      "label": "无法清除",
+      "animated": false,
+      "style": { "strokeDasharray": "5,5", "opacity": 0.5 },
+      "description": "受抑制的Th1无法有效清除MTB"
+    },
+    {
+      "id": "manlam-dcsign",
+      "source": "manlam",
+      "target": "dcsign",
+      "type": "binding",
+      "label": "识别",
+      "animated": false,
+      "description": "ManLAM被DC-SIGN受体识别"
+    },
+    {
+      "id": "mtb-macrophage",
+      "source": "mtb",
+      "target": "macrophage",
+      "type": "infection",
+      "label": "感染",
+      "animated": false,
+      "description": "MTB感染并寄生于巨噬细胞内"
+    }
+  ],
+  "learningPath": ["mtb", "manlam", "bcell", "stat3", "il10", "bregs", "immunosuppression", "th1", "mtb-survival"],
+  "keyPoints": [
+    "ManLAM是MTB免疫逃逸的关键分子",
+    "B细胞是ManLAM的重要靶细胞",
+    "STAT3是Breg分化的总开关",
+    "IL-10是免疫抑制的核心效应分子",
+    "Bregs通过IL-10抑制Th1抗结核免疫"
+  ],
+  "clinicalRelevance": "理解此机制有助于开发新的结核病治疗策略，如Anti-ManLAM Aptamer联合免疫调节治疗"
+}

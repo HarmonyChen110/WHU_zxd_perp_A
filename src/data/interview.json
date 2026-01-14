@@ -1,0 +1,465 @@
+{
+  "questions": [
+    {
+      "id": "q-001",
+      "question": "ManLAM是什么？它在结核病免疫逃逸中起什么作用？",
+      "category": "basic",
+      "answer": {
+        "keyPoints": [
+          "ManLAM = Mannose-capped Lipoarabinomannan（甘露糖修饰脂阿拉伯甘露聚糖）",
+          "是MTB细胞壁的重要组成成分",
+          "被称为'糖衣炮弹'",
+          "能通过DC-SIGN受体识别",
+          "诱导免疫抑制性细胞因子产生"
+        ],
+        "fullAnswer": "ManLAM是结核分枝杆菌细胞壁上的甘露糖修饰脂阿拉伯甘露聚糖。它是MTB免疫逃逸的关键分子，通过表面的甘露糖残基与宿主细胞表面的DC-SIGN受体结合，激活下游信号通路，诱导产生IL-10等免疫抑制性细胞因子，从而抑制Th1免疫反应，帮助细菌逃避免疫清除。",
+        "keywords": ["ManLAM", "细胞壁", "DC-SIGN", "免疫逃逸", "糖衣炮弹"]
+      },
+      "difficulty": 2,
+      "priority": "essential",
+      "relatedModules": ["module-manlam"],
+      "tags": ["基础概念", "必答题"]
+    },
+    {
+      "id": "q-002",
+      "question": "DC-SIGN受体如何识别ManLAM？这会导致什么后果？",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "DC-SIGN是树突状细胞表面的C型凝集素受体",
+          "特异性识别ManLAM末端的甘露糖残基",
+          "激活 Raf-1 通路",
+          "导致NF-κB p65亚基乙酰化",
+          "最终抑制IL-12产生，促进IL-10产生"
+        ],
+        "fullAnswer": "DC-SIGN（Dendritic Cell-Specific Intercellular adhesion molecule-3-Grabbing Non-integrin）是树突状细胞表面的C型凝集素受体，能够特异性识别ManLAM末端的甘露糖残基。这种识别会激活Raf-1激酶，导致NF-κB p65亚基乙酰化，使其与DNA的结合能力改变，最终抑制IL-12等促炎因子的产生，同时促进IL-10等抗炎因子的产生，从而抑制Th1免疫反应。",
+        "keywords": ["DC-SIGN", "甘露糖", "Raf-1", "NF-κB", "IL-12", "IL-10"]
+      },
+      "difficulty": 3,
+      "priority": "essential",
+      "relatedModules": ["module-dcsign", "module-manlam"],
+      "tags": ["机制", "必答题"]
+    },
+    {
+      "id": "q-003",
+      "question": "IL-10在结核病中的作用是什么？为什么被称为'免疫系统的灭火器'？",
+      "category": "basic",
+      "answer": {
+        "keyPoints": [
+          "IL-10是一种重要的抗炎细胞因子",
+          "抑制巨噬细胞的活化",
+          "抑制Th1细胞的分化和IFN-γ的产生",
+          "抑制抗原呈递功能",
+          "促进免疫耐受"
+        ],
+        "fullAnswer": "IL-10是一种强效的抗炎细胞因子，在结核病感染中起到负向调节免疫反应的作用。它通过抑制巨噬细胞活化、降低Th1细胞分化和IFN-γ产生、抑制抗原呈递等多种机制，抑制宿主的抗结核免疫反应，使MTB能够在宿主体内持续存活。因此被称为'免疫系统的灭火器'。",
+        "keywords": ["IL-10", "抗炎", "免疫抑制", "巨噬细胞", "Th1", "IFN-γ"]
+      },
+      "difficulty": 2,
+      "priority": "essential",
+      "relatedModules": ["module-il10"],
+      "tags": ["基础概念", "必答题"]
+    },
+    {
+      "id": "q-004",
+      "question": "什么是Bregs（调节性B细胞）？它的表型和功能是什么？",
+      "category": "basic",
+      "answer": {
+        "keyPoints": [
+          "Bregs = Regulatory B cells（调节性B细胞）",
+          "主要表型：CD19+CD5+CD1dhi",
+          "通过产生IL-10发挥免疫调节功能",
+          "抑制Th1免疫反应",
+          "在自身免疫病和感染中发挥重要作用"
+        ],
+        "fullAnswer": "Bregs（Regulatory B cells，调节性B细胞）是一群具有免疫抑制功能的B细胞亚群。其主要表型为CD19+CD5+CD1dhi。Bregs通过产生IL-10等免疫抑制性细胞因子，抑制Th1细胞的分化和功能，抑制炎症反应，在维持免疫稳态、防止自身免疫病中发挥重要作用。然而，在结核感染中，MTB通过诱导Bregs产生，逃避免疫清除。",
+        "keywords": ["Bregs", "CD19+CD5+CD1dhi", "IL-10", "免疫抑制", "调节性B细胞"]
+      },
+      "difficulty": 2,
+      "priority": "essential",
+      "relatedModules": ["module-bregs"],
+      "tags": ["基础概念", "必答题"]
+    },
+    {
+      "id": "q-005",
+      "question": "STAT3在Breg分化中起什么作用？",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "STAT3是信号转导与转录激活因子3",
+          "是Breg分化的关键转录因子",
+          "被IL-10等细胞因子激活",
+          "诱导Blimp-1等转录因子表达",
+          "促进B细胞向Bregs分化"
+        ],
+        "fullAnswer": "STAT3是Breg分化的关键转录因子。当B细胞表面受体（如BCR、TLR等）被激活后，会触发STAT3的磷酸化和激活。激活的STAT3二聚体入核，诱导Blimp-1等转录因子表达，促进B细胞向产生IL-10的Bregs分化。抑制STAT3可以阻断Bregs的产生。",
+        "keywords": ["STAT3", "转录因子", "Blimp-1", "磷酸化", "Breg分化"]
+      },
+      "difficulty": 3,
+      "priority": "important",
+      "relatedModules": ["module-stat3", "module-bregs"],
+      "tags": ["机制", "重要"]
+    },
+    {
+      "id": "q-006",
+      "question": "Th1细胞在抗结核免疫中起什么作用？",
+      "category": "basic",
+      "answer": {
+        "keyPoints": [
+          "Th1细胞是抗结核免疫的主力",
+          "产生IFN-γ激活巨噬细胞",
+          "促进巨噬细胞吞噬和杀灭MTB",
+          "形成肉芽肿限制细菌扩散",
+          "Th1反应受损会导致结核病进展"
+        ],
+        "fullAnswer": "Th1细胞是抗结核免疫的主力军。它们通过产生IFN-γ，激活巨噬细胞的杀菌功能，促进巨噬细胞吞噬和杀灭MTB。同时，Th1反应还参与肉芽肿的形成，将感染局限化。当Th1反应受损时（如HIV感染者），结核病易进展和扩散。",
+        "keywords": ["Th1", "IFN-γ", "巨噬细胞", "肉芽肿", "抗结核免疫"]
+      },
+      "difficulty": 2,
+      "priority": "essential",
+      "relatedModules": ["module-th1"],
+      "tags": ["基础概念", "必答题"]
+    },
+    {
+      "id": "q-007",
+      "question": "巨噬细胞在结核感染中的双重作用是什么？",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "巨噬细胞是MTB的主要宿主细胞",
+          "同时是杀灭MTB的主要效应细胞",
+          "激活状态的巨噬细胞能杀灭MTB",
+          "未激活的巨噬细胞成为MTB的避难所",
+          "MTB能抑制巨噬细胞的活化"
+        ],
+        "fullAnswer": "巨噬细胞在结核感染中具有双重作用。一方面，它是MTB的主要宿主细胞，细菌可以在其中存活和繁殖；另一方面，它也是杀灭MTB的主要效应细胞。当被IFN-γ等因子充分激活时，巨噬细胞能够通过产生ROS、NO等方式杀灭MTB。然而，MTB通过分泌ManLAM等因子，抑制巨噬细胞的活化，使其成为细菌的避难所。",
+        "keywords": ["巨噬细胞", "双重作用", "激活", "ROS", "NO", "避难所"]
+      },
+      "difficulty": 3,
+      "priority": "important",
+      "relatedModules": ["module-macrophage"],
+      "tags": ["机制", "重要"]
+    },
+    {
+      "id": "q-008",
+      "question": "请描述ManLAM-B细胞-IL-10免疫逃逸轴的完整机制。",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "MTB感染释放ManLAM",
+          "ManLAM通过DC-SIGN或TLR2识别B细胞",
+          "激活STAT3信号通路",
+          "B细胞分化为产生IL-10的Bregs",
+          "IL-10抑制Th1免疫反应",
+          "MTB逃避免疫清除，持续存活"
+        ],
+        "fullAnswer": "当MTB感染后，细菌释放ManLAM分子。ManLAM可以通过DC-SIGN受体或TLR2受体识别并结合B细胞，激活下游的STAT3信号通路。激活的STAT3诱导B细胞分化为产生IL-10的调节性B细胞（Bregs）。Bregs产生的IL-10通过抑制巨噬细胞活化、抑制Th1细胞分化等方式，全面抑制宿主的抗结核免疫反应，使MTB能够逃避免疫清除并在宿主体内持续存活。",
+        "keywords": ["ManLAM", "B细胞", "STAT3", "Bregs", "IL-10", "Th1", "免疫逃逸轴"]
+      },
+      "difficulty": 4,
+      "priority": "essential",
+      "relatedModules": ["synthesis-mechanism", "module-manlam", "module-bregs"],
+      "tags": ["机制", "必答题", "核心"]
+    },
+    {
+      "id": "q-009",
+      "question": "潘教授团队的核心发现是什么？",
+      "category": "research",
+      "answer": {
+        "keyPoints": [
+          "首次发现ManLAM可以诱导B细胞产生IL-10",
+          "首次发现ManLAM可以诱导B细胞分化为Bregs",
+          "揭示了MTB利用B细胞进行免疫逃逸的新机制",
+          "为结核病免疫治疗提供了新靶点",
+          "发表于iScience等高水平期刊"
+        ],
+        "fullAnswer": "潘教授团队的核心发现是：MTB分泌的ManLAM可以诱导B细胞分化为产生IL-10的调节性B细胞（Bregs），通过Bregs抑制Th1免疫反应，从而实现免疫逃逸。这是首次发现MTB可以利用B细胞进行免疫逃逸，揭示了结核病免疫逃逸的新机制，为开发针对Bregs或IL-10的结核病免疫治疗新策略提供了理论基础。",
+        "keywords": ["潘教授", "核心发现", "ManLAM", "Bregs", "IL-10", "免疫逃逸", "iScience"]
+      },
+      "difficulty": 3,
+      "priority": "essential",
+      "relatedModules": ["paper-yuan-2019", "synthesis-ultimate"],
+      "tags": ["研究", "必答题", "核心"]
+    },
+    {
+      "id": "q-010",
+      "question": "什么是Aptamer（核酸适配体）？它在研究中有什么应用？",
+      "category": "technique",
+      "answer": {
+        "keyPoints": [
+          "Aptamer是单链DNA或RNA分子",
+          "能特异性结合靶分子",
+          "通过SELEX技术筛选获得",
+          "被称为'化学抗体'",
+          "潘教授团队开发了靶向ManLAM的aptamer"
+        ],
+        "fullAnswer": "Aptamer（核酸适配体）是通过SELEX技术筛选获得的、能够特异性结合靶分子的单链DNA或RNA分子。它具有高亲和力、高特异性、低免疫原性、易于合成和修饰等优点，被称为'化学抗体'。潘教授团队开发了能够特异性识别ManLAM的DNA aptamer，为结核病诊断和治疗提供了新的工具。",
+        "keywords": ["Aptamer", "核酸适配体", "SELEX", "化学抗体", "ManLAM"]
+      },
+      "difficulty": 2,
+      "priority": "important",
+      "relatedModules": ["paper-pan-2014", "paper-sun-2016"],
+      "tags": ["技术", "重要"]
+    },
+    {
+      "id": "q-011",
+      "question": "为什么结核病难以治愈？",
+      "category": "disease",
+      "answer": {
+        "keyPoints": [
+          "MTB具有坚韧的细胞壁，耐药性强",
+          "能够潜伏在宿主体内",
+          "能够抑制宿主免疫反应",
+          "容易产生耐药性",
+          "治疗周期长，患者依从性差"
+        ],
+        "fullAnswer": "结核病难以治愈的原因包括：(1)MTB具有坚韧的细胞壁，对环境压力和药物有很强的抵抗力；(2)MTB能够潜伏在肉芽肿中，进入休眠状态，逃避药物作用；(3)MTB通过ManLAM等分子抑制宿主免疫反应，逃避免疫清除；(4)MTB容易产生耐药性，尤其是多重耐药和广泛耐药；(5)标准治疗方案需要6个月以上，患者依从性差。",
+        "keywords": ["结核病", "耐药", "潜伏", "免疫逃逸", "治疗周期"]
+      },
+      "difficulty": 2,
+      "priority": "important",
+      "relatedModules": ["module-tb-difficulty"],
+      "tags": ["疾病", "重要"]
+    },
+    {
+      "id": "q-012",
+      "question": "肉芽肿在结核病中起什么作用？",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "肉芽肿是宿主限制MTB扩散的结构",
+          "由巨噬细胞、淋巴细胞等组成",
+          "将感染局限化",
+          "但也可能成为MTB的避难所",
+          "肉芽肿的结构和功能异常会导致结核播散"
+        ],
+        "fullAnswer": "肉芽肿是宿主对MTB感染的一种免疫反应结构，由活化的巨噬细胞（上皮样细胞、巨细胞）、T淋巴细胞等构成。肉芽肿的作用是将感染局限化，防止MTB扩散。然而，肉芽肿中心也可能成为MTB潜伏和存活的场所。当肉芽肿的结构和功能异常时，可能导致结核病播散。",
+        "keywords": ["肉芽肿", "巨噬细胞", "T细胞", "局限化", "潜伏"]
+      },
+      "difficulty": 3,
+      "priority": "important",
+      "relatedModules": ["module-immune-evasion"],
+      "tags": ["机制", "重要"]
+    },
+    {
+      "id": "q-013",
+      "question": "TLR2在识别ManLAM中起什么作用？",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "TLR2是Toll样受体2",
+          "能够识别MTB的多种成分",
+          "参与识别ManLAM",
+          "激活NF-κB和MAPK通路",
+          "可同时产生促炎和抗炎反应"
+        ],
+        "fullAnswer": "TLR2是Toll样受体家族成员，能够识别MTB细胞壁的多种成分，包括ManLAM。ManLAM可以通过TLR2激活B细胞，触发下游的NF-κB和MAPK信号通路，导致多种细胞因子的产生。有趣的是，TLR2激活既可以产生促炎反应，也可以产生抗炎反应（如IL-10），这取决于细胞类型和微环境。",
+        "keywords": ["TLR2", "Toll样受体", "ManLAM", "NF-κB", "MAPK", "促炎", "抗炎"]
+      },
+      "difficulty": 3,
+      "priority": "important",
+      "relatedModules": ["module-tlr2", "module-manlam"],
+      "tags": ["机制", "重要"]
+    },
+    {
+      "id": "q-014",
+      "question": "NF-κB在免疫反应中有什么作用？ManLAM如何影响它？",
+      "category": "mechanism",
+      "answer": {
+        "keyPoints": [
+          "NF-κB是重要的转录因子",
+          "调控多种免疫相关基因表达",
+          "包括促炎因子和抗炎因子",
+          "ManLAM通过DC-SIGN激活Raf-1",
+          "导致NF-κB p65乙酰化，改变其功能"
+        ],
+        "fullAnswer": "NF-κB是调控免疫反应的关键转录因子，调控包括IL-12、TNF-α、IL-10等多种细胞因子的表达。ManLAM通过DC-SIGN激活Raf-1激酶，导致NF-κB p65亚基乙酰化。这种修饰改变NF-κB与DNA的结合模式，使其倾向于激活IL-10等抗炎基因，而抑制IL-12等促炎基因，从而偏向免疫抑制反应。",
+        "keywords": ["NF-κB", "转录因子", "乙酰化", "Raf-1", "IL-12", "IL-10"]
+      },
+      "difficulty": 4,
+      "priority": "important",
+      "relatedModules": ["module-nfkb", "module-dcsign"],
+      "tags": ["机制", "重要", "难点"]
+    },
+    {
+      "id": "q-015",
+      "question": "流式细胞术(FACS)在研究Bregs时有什么应用？",
+      "category": "technique",
+      "answer": {
+        "keyPoints": [
+          "检测Bregs的表面标志物",
+          "分选Bregs亚群",
+          "检测细胞内IL-10产生",
+          "分析细胞增殖和凋亡",
+          "Bregs表型：CD19+CD5+CD1dhi"
+        ],
+        "fullAnswer": "流式细胞术(FACS)在Bregs研究中有多种应用：(1)检测Bregs的表面标志物（CD19、CD5、CD1d等）；(2)分选纯化Bregs亚群进行后续分析；(3)结合胞内染色检测细胞内IL-10的产生；(4)分析Bregs的增殖、凋亡等细胞生物学特性。流式细胞术是研究Bregs必不可少的工具。",
+        "keywords": ["流式细胞术", "FACS", "Bregs", "CD19", "CD5", "CD1d", "IL-10"]
+      },
+      "difficulty": 2,
+      "priority": "general",
+      "relatedModules": ["module-facs"],
+      "tags": ["技术", "了解"]
+    },
+    {
+      "id": "q-016",
+      "question": "Co-IP和ChIP-Seq技术有什么区别和应用？",
+      "category": "technique",
+      "answer": {
+        "keyPoints": [
+          "Co-IP：免疫共沉淀，检测蛋白质-蛋白质相互作用",
+          "ChIP-Seq：染色质免疫沉淀测序，检测蛋白质-DNA相互作用",
+          "Co-IP用于寻找蛋白复合物成员",
+          "ChIP-Seq用于寻找转录因子的靶基因",
+          "两者都使用抗体特异性沉淀"
+        ],
+        "fullAnswer": "Co-IP（免疫共沉淀）和ChIP-Seq（染色质免疫沉淀测序）都是基于抗体特异性沉淀的技术，但应用不同。Co-IP用于研究蛋白质-蛋白质相互作用，通过沉淀一个蛋白来寻找与其相互作用的蛋白伙伴。ChIP-Seq用于研究蛋白质-DNA相互作用，通过沉淀转录因子来寻找其结合的DNA序列和靶基因。在STAT3研究中，ChIP-Seq可用于寻找STAT3的靶基因。",
+        "keywords": ["Co-IP", "ChIP-Seq", "蛋白质相互作用", "DNA相互作用", "STAT3"]
+      },
+      "difficulty": 3,
+      "priority": "general",
+      "relatedModules": ["module-techniques"],
+      "tags": ["技术", "了解"]
+    },
+    {
+      "id": "q-017",
+      "question": "潘教授的研究对结核病治疗有什么启示？",
+      "category": "research",
+      "answer": {
+        "keyPoints": [
+          "针对Bregs的治疗可能增强抗结核免疫",
+          "抑制IL-10信号可能改善治疗效果",
+          "靶向ManLAM的aptamer可用于诊断和治疗",
+          "免疫治疗与传统化疗联合可能提高疗效",
+          "为耐药结核提供新的治疗思路"
+        ],
+        "fullAnswer": "潘教授的研究为结核病治疗提供了新的思路：(1)靶向清除或抑制Bregs，可能恢复宿主的抗结核免疫反应；(2)抑制IL-10信号通路，可能增强巨噬细胞杀菌能力；(3)靶向ManLAM的aptamer可用于结核病诊断，也可作为药物递送载体；(4)免疫治疗与传统化疗联合，可能提高疗效，缩短疗程；(5)为耐药结核病提供了新的治疗策略。",
+        "keywords": ["Bregs", "IL-10", "Aptamer", "免疫治疗", "耐药结核"]
+      },
+      "difficulty": 3,
+      "priority": "important",
+      "relatedModules": ["synthesis-ultimate"],
+      "tags": ["研究", "重要", "应用"]
+    },
+    {
+      "id": "q-018",
+      "question": "2019年iScience论文的主要发现是什么？",
+      "category": "paper",
+      "answer": {
+        "keyPoints": [
+          "首次证明ManLAM可以诱导B细胞产生IL-10",
+          "首次证明ManLAM可以诱导Bregs分化",
+          "阐明STAT3是关键信号分子",
+          "揭示MTB-B细胞-IL-10免疫逃逸轴",
+          "使用小鼠模型证实体内作用"
+        ],
+        "fullAnswer": "2019年发表于iScience的论文（Yuan et al.）首次证明ManLAM可以诱导B细胞产生IL-10，并分化为调节性B细胞（Bregs）。研究发现STAT3是这一过程的关键信号分子，抑制STAT3可以阻断ManLAM诱导的Bregs产生。研究还使用小鼠模型证实，ManLAM可以通过诱导Bregs抑制Th1反应，帮助MTB在体内存活。这篇论文揭示了MTB-B细胞-IL-10免疫逃逸轴。",
+        "keywords": ["iScience", "2019", "ManLAM", "Bregs", "IL-10", "STAT3", "小鼠模型"]
+      },
+      "difficulty": 4,
+      "priority": "essential",
+      "relatedModules": ["paper-yuan-2019"],
+      "tags": ["论文", "必答题", "核心"]
+    },
+    {
+      "id": "q-019",
+      "question": "2014年Molecular Therapy论文的研究起点是什么？",
+      "category": "paper",
+      "answer": {
+        "keyPoints": [
+          "开发靶向ManLAM的DNA aptamer",
+          "aptamer能特异性识别ManLAM",
+          "可作为结核病诊断工具",
+          "可作为药物递送载体",
+          "为后续研究奠定基础"
+        ],
+        "fullAnswer": "2014年发表于Molecular Therapy的论文（Pan et al.）是潘教授团队相关研究的起点。该研究成功开发了能够特异性识别ManLAM的DNA aptamer，并证明了其在结核病诊断中的应用潜力。这项研究为后续研究ManLAM的生物学功能提供了重要工具，也为开发基于aptamer的结核病治疗策略奠定了基础。",
+        "keywords": ["Molecular Therapy", "2014", "Aptamer", "ManLAM", "诊断", "研究起点"]
+      },
+      "difficulty": 3,
+      "priority": "important",
+      "relatedModules": ["paper-pan-2014"],
+      "tags": ["论文", "重要"]
+    },
+    {
+      "id": "q-020",
+      "question": "从2014到2020年，潘教授团队的研究脉络是什么？",
+      "category": "synthesis",
+      "answer": {
+        "keyPoints": [
+          "2014：开发靶向ManLAM的aptamer（工具建立）",
+          "2016：优化aptamer，发现糖蛋白（技术深化）",
+          "2017：探索糖蛋白功能（机制初步）",
+          "2019：发现ManLAM诱导Bregs（核心突破）",
+          "2020：验证机制的普适性（扩展验证）"
+        ],
+        "fullAnswer": "潘教授团队的研究脉络清晰：(1)2014年，开发靶向ManLAM的aptamer，建立研究工具；(2)2016年，优化aptamer技术，发现MTB表面糖蛋白；(3)2017年，探索糖蛋白在免疫识别中的作用；(4)2019年，核心突破，发现ManLAM可以诱导B细胞分化为Bregs，揭示MTB-B细胞-IL-10免疫逃逸轴；(5)2020年，在HCV感染中发现类似机制，证明机制的普适性。这是一个从工具建立到机制发现，再到扩展验证的完整研究脉络。",
+        "keywords": ["研究脉络", "2014-2020", "Aptamer", "Bregs", "免疫逃逸"]
+      },
+      "difficulty": 4,
+      "priority": "essential",
+      "relatedModules": ["synthesis-timeline"],
+      "tags": ["综合", "必答题", "核心"]
+    },
+    {
+      "id": "q-021",
+      "question": "如果让你设计一个针对Bregs的结核病治疗方案，你会怎么做？",
+      "category": "application",
+      "answer": {
+        "keyPoints": [
+          "清除或抑制Bregs",
+          "阻断IL-10信号通路",
+          "阻断STAT3激活",
+          "与常规化疗联合",
+          "注意避免过度炎症反应"
+        ],
+        "fullAnswer": "针对Bregs的结核病治疗方案可能包括：(1)使用抗CD20抗体清除B细胞（包括Bregs）；(2)使用IL-10受体抗体阻断IL-10信号；(3)使用STAT3抑制剂阻断Breg分化；(4)与常规抗结核化疗联合，增强杀菌效果；(5)密切监测炎症反应，避免过度免疫激活导致的组织损伤。这个方案需要平衡免疫增强和炎症控制。",
+        "keywords": ["Bregs", "IL-10", "STAT3", "免疫治疗", "化疗", "抗CD20"]
+      },
+      "difficulty": 5,
+      "priority": "challenge",
+      "relatedModules": ["synthesis-ultimate"],
+      "tags": ["应用", "挑战"]
+    },
+    {
+      "id": "q-022",
+      "question": "HCV感染和MTB感染在免疫逃逸机制上有什么相似之处？",
+      "category": "synthesis",
+      "answer": {
+        "keyPoints": [
+          "都能诱导Bregs产生",
+          "都通过Bregs产生IL-10",
+          "都通过IL-10抑制Th1免疫",
+          "都是慢性感染",
+          "提示Bregs-IL-10轴是慢性感染的共同机制"
+        ],
+        "fullAnswer": "2020年潘教授团队发表的HCV研究（Liu et al.）发现，HCV感染也能诱导B细胞分化为产生IL-10的Bregs，通过Bregs抑制Th1免疫反应。这与MTB感染的机制非常相似。这提示Bregs-IL-10轴可能是多种慢性病原体免疫逃逸的共同机制，针对这一轴的治疗策略可能对多种慢性感染都有效。",
+        "keywords": ["HCV", "MTB", "Bregs", "IL-10", "免疫逃逸", "慢性感染", "共同机制"]
+      },
+      "difficulty": 4,
+      "priority": "important",
+      "relatedModules": ["paper-liu-2020", "synthesis-mechanism"],
+      "tags": ["综合", "重要"]
+    },
+    {
+      "id": "q-023",
+      "question": "你为什么想报考潘教授的研究生？",
+      "category": "personal",
+      "answer": {
+        "keyPoints": [
+          "对感染免疫研究有浓厚兴趣",
+          "认同实验室研究方向",
+          "希望参与前沿研究",
+          "希望在指导下成长",
+          "为结核病防治做出贡献"
+        ],
+        "fullAnswer": "这是一个开放性问题，考生需要结合自己的经历和兴趣来回答。建议从以下几个方面展开：(1)对感染免疫/免疫调节研究的兴趣和经历；(2)对潘教授研究内容的理解和认同；(3)希望通过研究生学习掌握科研技能；(4)希望为结核病等重大传染病防治做出贡献。回答要真诚具体，避免空泛。",
+        "keywords": ["感染免疫", "研究兴趣", "职业规划", "真诚"]
+      },
+      "difficulty": 1,
+      "priority": "essential",
+      "relatedModules": [],
+      "tags": ["个人", "必答题"]
+    }
+  ]
+}
